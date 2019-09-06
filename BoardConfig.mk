@@ -221,4 +221,7 @@ include device/qcom/sepolicy-legacy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += \
     $(DEVICE_PATH)/sepolicy
 
+BOARD_SEPOLICY_DIRS += \
+     $(DEVICE_PATH)/sepolicy-tmp
+
 -include vendor/zuk/ham/BoardConfigVendor.mk
