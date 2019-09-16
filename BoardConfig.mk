@@ -217,9 +217,9 @@ endif
 
 # SELinux policies
 # qcom sepolicy
-include device/qcom/sepolicy-legacy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += \
-    $(DEVICE_PATH)/sepolicy
+#include device/qcom/sepolicy-legacy/sepolicy.mk
+#BOARD_SEPOLICY_DIRS += \
+#    $(DEVICE_PATH)/sepolicy
 
 BOARD_SEPOLICY_DIRS += \
      $(DEVICE_PATH)/sepolicy-tmp
