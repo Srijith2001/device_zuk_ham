@@ -60,6 +60,8 @@ BOARD_KERNEL_CMDLINE := console=tty60,115200,n8 androidboot.hardware=qcom user_d
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8974
 TARGET_KERNEL_CONFIG := lineageos_k9_defconfig
+#KERNEL_TOOLCHAIN 	:= $(shell pwd)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9/bin
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # Enable DIAG on eng builds
 ifeq ($(TARGET_BUILD_VARIANT),eng)
