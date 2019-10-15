@@ -36,6 +36,8 @@ LOCAL_SRC_FILES += \
 LOCAL_CFLAGS += \
      -fno-short-enums \
      -D_ANDROID_ \
+     -Wno-error \
+     -Wno-null-conversion \
      -Wno-unused-parameter
 
 LOCAL_C_INCLUDES:= \
@@ -79,6 +81,8 @@ LOCAL_SRC_FILES += \
 LOCAL_CFLAGS += \
     -fno-short-enums \
      -D_ANDROID_ \
+     -Wno-error \
+     -Wno-null-conversion \
      -Wno-unused-parameter
 
 ## Includes
